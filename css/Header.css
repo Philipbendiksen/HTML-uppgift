@@ -10,6 +10,7 @@ li, a, button {
     font-weight: 500;
     font-size: 16px;
     color: azure;
+    text-decoration: none;
 
 }
 
@@ -23,12 +24,31 @@ header {
 
 }
 
-.logo {
+
+
+.logo { 
 cursor: pointer;
 margin-right: auto;
 color: azure;
+font-size: large;
 
 }
+
+.logo a { 
+
+    font-size: 20px;
+    
+    }
+
+.logo a:hover {
+
+    color: cadetblue;
+  }
+
+  .logo a {
+
+    transition: all 0.3s ease;  /* ger en mjukare övergång till hover färgen */ 
+  }
 
 .nav_links {
 
@@ -60,7 +80,7 @@ color: azure;
 button {
     
     margin-left: 20px;
-    padding: 9px 25px;
+    padding: 8px 25px;
     background-color: rgba(0, 136, 169, 1);
     border: none;
     border-radius: 50px;
@@ -74,24 +94,4 @@ button {
 button:hover {
     background-color: rgba(0, 136, 169, 0.8);
 }
-
-
-
-.fjällräven {
-
-    display: block; 
-    margin:auto; 
-    width: 800px;
-    height: auto;
-  
-}
-
-.rubrik2 {
-    color: azure;
-    font-size: 30px;
-    font-style: italic;
-    text-align: center;
-    
-    }
-
 

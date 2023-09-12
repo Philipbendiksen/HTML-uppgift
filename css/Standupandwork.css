@@ -1,4 +1,4 @@
-.rubrik {
+.rubrik2 {
     color: azure;
     font-size: 30px;
     font-style: italic;
@@ -9,8 +9,7 @@
 
     .flexbox-container {
         display: flex; /* startar flex */ 
-        justify-content: end; /* justify-content: center;  Flyttar flex-boxen horisontellt på X axeln */ 
-        margin-right: 20px;
+        justify-content: center; /* justify-content: center;  Flyttar flex-boxen horisontellt på X axeln */ 
         
        /*  Flex-wrap: wrap; Gör så objekten inte ändrar storlek när skärmen blir mindre */ 
        /* justify-content: center;  Flyttar flex-boxen horisontellt på X axeln */ 
@@ -21,7 +20,7 @@
    
    .flexbox-item {
     display: block;
-       width: 800px;
+       width: 300px;
        min-height: 600px;
        max-height: 600px;
        margin: 10px;

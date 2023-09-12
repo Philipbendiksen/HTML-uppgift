@@ -1,0 +1,90 @@
+
+.rubrik2 {
+    color: azure;
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    
+    }
+
+    .flexbox-container {
+        display: flex; /* startar flex */ 
+        justify-content: center; /* justify-content: center;  Flyttar flex-boxen horisontellt på X axeln */ 
+        
+       /*  Flex-wrap: wrap; Gör så objekten inte ändrar storlek när skärmen blir mindre */ 
+       /* justify-content: center;  Flyttar flex-boxen horisontellt på X axeln */ 
+       /* align-items: stretch;  Flyttar flex-boxen vertikalt på Y axeln */ 
+       /* align-content: center; Används enbart på multi line flexbox */ 
+      
+   }
+   
+   .flexbox-item {
+    display: block;
+       width: 300px;
+       min-height: 600px;
+       max-height: 600px;
+       margin: 10px;
+       border: 3px solid #333;
+       background-color: #dfdfdf;
+
+    }
+
+   
+   .flexbox-item-1 {
+        
+       overflow: hidden;
+       
+   }
+   
+   .flexbox-item-1 img {
+
+    height: 100%; /* Ändrar storleken på bilden så den tar upp hela boxen  */ 
+    width: 100%;
+
+   } 
+
+   .flexbox-item-2 {
+      
+    overflow: hidden; /* Gör så att bilden inte kommer utanför kanten på boxen */  
+       /* flex-grow: 2;  Gör så boxen blir större, 2x större än box nr 3 
+       flex-basis: 0;  Gör så att boxen börjar växa vid 0 pixlar  */ 
+      
+   }
+
+   .flexbox-item-2 img {
+
+    height: 100%; /* Ändrar storleken på bilden så den tar upp hela boxen  */ 
+    width: 100%;
+   
+
+   }
+   
+   .flexbox-item-3 {
+
+    overflow: hidden; 
+      
+       /* flex-grow: 1; Gör så boxen blir större 
+       flex-basis: 0;  Gör så att boxen börjar växa vid 0 pixlar 
+       /* flex-grow: 1;  Fyller ut allt resterande område på skärmen på X axeln */ 
+   }
+
+   .flexbox-item-3 img {
+
+    height: 100%; /* Ändrar storleken på bilden så den tar upp hela boxen  */ 
+    width: 100%;
+
+   }
+
+   .textomprojekt {
+    
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    
+   }
+   
+   
+   
+   
+
+

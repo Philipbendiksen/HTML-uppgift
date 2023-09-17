@@ -6,26 +6,75 @@
     
     }
 
+ .container {
+    display: flex;
+    background-color: #c58716;
+    padding: 20px;
+    margin: auto;
+    width: 800px;
+    height: 400px;
 
-    .flexbox-container {
-        display: flex; /* startar flex */ 
-        justify-content: end; /* justify-content: center;  Flyttar flex-boxen horisontellt på X axeln */ 
-        margin-right: 20px;
-        
-       /*  Flex-wrap: wrap; Gör så objekten inte ändrar storlek när skärmen blir mindre */ 
-       /* justify-content: center;  Flyttar flex-boxen horisontellt på X axeln */ 
-       /* align-items: stretch;  Flyttar flex-boxen vertikalt på Y axeln */ 
-       /* align-content: center; Används enbart på multi line flexbox */ 
-      
-   }
+    
+ }   
+
+ .contactinformation {
+    display: flex;
+    color: black;
+    font-size: 20px;
+    width: 300px;
+    text-align:center;
+    align-items: center;
+    margin: 50px;
    
-   .flexbox-item {
-    display: block;
-       width: 800px;
-       min-height: 600px;
-       max-height: 600px;
-       margin: 10px;
-       border: 3px solid #333;
-       background-color: #dfdfdf;
+    
+    
+ }
+
+ .Inforutor { 
+
+    display: flex;
+    flex-direction: column;
+   
+   
+ }
+
+ .Inforutor input {
+
+    display: flex;
+    min-width: 300px;
+    height: 40px;
+    margin: 6px;
+    margin-left: 100px;
+    
+ }
+
+
+
+    .Inforutor textarea {
+        display: flex;
+      height: 50px;
+      margin: 6px;
+      margin-left: 100px;
+     
+
 
     }
+
+
+    .button1 {
+        display: flex;
+        justify-content: center;
+        margin-top: 3px 3px;
+        background-color: rgba(0, 136, 169, 1);
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        
+
+    }
+
+    .button1:hover {
+        background-color: rgba(0, 136, 169, 0.8);
+    }
+

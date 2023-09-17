@@ -10,6 +10,8 @@
     .flexbox-container {
         display: flex; /* startar flex */ 
         justify-content: center; /* justify-content: center;  Flyttar flex-boxen horisontellt på X axeln */ 
+        gap: 100px; /* används för att putta isär flexbox lådorna */ 
+        
         
        /*  Flex-wrap: wrap; Gör så objekten inte ändrar storlek när skärmen blir mindre */ 
        /* justify-content: center;  Flyttar flex-boxen horisontellt på X axeln */ 
@@ -19,12 +21,51 @@
    }
    
    .flexbox-item {
-    display: block;
+        display: flex;
        width: 300px;
-       min-height: 600px;
        max-height: 600px;
-       margin: 10px;
+       min-height: 400px;
        border: 3px solid #333;
        background-color: #dfdfdf;
+
+    }
+
+    .flexbox-item-1 {  /* Gör så att bilden inte kommer utanför kanten på boxen */ 
+        
+        overflow: hidden;
+        
+    }
+    
+
+    .flexbox-item-1 img {
+
+        height: 100%; /* Ändrar storleken på bilden så den tar upp hela boxen  */ 
+        width: 100%;
+    
+       } 
+
+       .flexbox-item-3 {
+        
+        overflow: hidden;
+        
+    }
+    
+
+       .flexbox-item-3 img {
+
+        height: 100%; /* Ändrar storleken på bilden så den tar upp hela boxen  */ 
+        width: 100%;
+    
+       } 
+
+    .textaboutme {
+       
+      color: azure;
+      text-align: center;
+      width: 300px;
+      font-size: 25px;
+
+     
+
 
     }

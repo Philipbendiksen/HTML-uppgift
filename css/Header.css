@@ -1,4 +1,4 @@
-* {
+body {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
@@ -9,6 +9,7 @@ li, a, button {
 
     font-weight: 500;
     font-size: 16px;
+    font-size:clamp (5vh, 15vh, 30vh);
     color: azure;
     text-decoration: none;
 

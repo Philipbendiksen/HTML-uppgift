@@ -2,19 +2,36 @@
 
 .container-fjällräven {
     display: flex;
-   float: right;
-
+    float: right;
+   flex-direction: column;
   
 
 }
 
-/*  Jag får tyvärr inte detta att fungera får släppa det tills nästa vecka... 
 
-@media only screen and (max-width: 500px) { 
-    .container-fjällräven {  display: none;} 
+
+.container-fjällräven img {
+
+        display: flex;
+        max-width: 100%;
+       
+
 }
 
-*/ 
+@media all and (min-width: 1120px) {
+
+    .container-fjällräven img {
+    display: flex;
+    max-width: 800px;
+    justify-content: flex-end;
+    margin-right: 30px;
+    margin-top: 60px;
+    padding: 30px;
+
+    }
+}
+
+/* Desktop storlek  
 
 .container-fjällräven img   {
     display: flex;
@@ -26,10 +43,39 @@
 
 
 }
+*/ 
 
 
 
 
+.textOmMig .howIam {
+
+display: flex;
+padding: 20px;
+text-align: center;
+justify-content: center;
+color: aliceblue;
+font-size: 60px;
+
+
+}
+
+@media all and (min-width: 1120px) {
+    .textOmMig .howIam {
+
+    display: flex; 
+    margin-top: 100px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 50px;
+
+
+    }
+
+}
+
+
+/* Desktop storlek 
 
 .container-Home .howIam {
 display: flex;
@@ -44,7 +90,7 @@ margin-top: 200px;
 
 
 }
-
+*/ 
 
 /* 
 @media (max-with:800px) {
@@ -58,6 +104,29 @@ margin-top: 200px;
 */ 
 
 
+.textOmMig .whatIam {
+
+    display: flex;
+    padding: 2px;
+    text-align: center;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 30px;
+
+}
+
+@media all and (min-width: 1120px) {
+.textOmMig .whatIam {
+
+    display: flex;
+
+}
+
+}
+
+
+/* Desktop storlek 
+
 .container-Home .whatIam {
 
 display: flex;
@@ -69,6 +138,6 @@ display: block;
 color: aliceblue;
 font-size: 30px;
 
-
 }
 
+*/ 

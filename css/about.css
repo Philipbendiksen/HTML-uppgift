@@ -1,12 +1,25 @@
 
-.fjällräven {
 
-    display: block; 
+
+
+
+.fjällräven2 {
+
+    display: flex; 
     margin:auto; 
-    width: 800px;
+    max-width: 800px;
     height: auto;
   
 }
+
+@media all and (max-width: 1000px) { 
+.fjällräven2 { 
+
+    max-width: 100%;
+
+} 
+} 
+
 
 .rubrik4 {
 color: azure;

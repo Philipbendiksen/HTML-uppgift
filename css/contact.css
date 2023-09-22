@@ -6,39 +6,81 @@
     
     }
 
- .container {
-    display: flex;
-    background-color: #c58716;
-    padding: 20px;
-    margin: auto;
-    width: 800px;
-    height: 400px;
 
     
+    @media all and (min-width: 850px) {      /* Desktop */ 
+ .container  {
+  display: flex;
+  flex-direction: row;
+  border-width: 3px;
+  border-style: solid;
+  color: azure;
+  padding: 20px;
+  margin: auto;
+  width: 800px;
+  height: 400px;
+
+   }
  }   
 
- .contactinformation {
+ .contactinformation {     /* Mobil */ 
+  
+ color:azure;
+ font-size: 15px;
+ text-align:center;
+ align-items: center;
+ padding: 20px;
+
+}
+
+@media all and (min-width: 850px) {         /* Desktop */ 
+   .contactinformation { 
     display: flex;
-    color: black;
-    font-size: 20px;
-    width: 300px;
     text-align:center;
     align-items: center;
+    color:azure; 
+    font-size: 20px;
+    width: 300px;
     margin: 50px;
-   
-    
+   } 
     
  }
 
+
+ .Inforutor {    /* Mobil */          
+
+   display: flex;  
+   justify-content: center;
+   flex-direction: column;
+   max-width: 500px;
+   min-width: 200px; 
+   margin: auto;
+ 
+   
+ } 
+
+ @media all and (min-width: 850px) {            /* Desktop */ 
  .Inforutor { 
 
     display: flex;
     flex-direction: column;
-   
-   
+
+   } 
+
  }
 
- .Inforutor input {
+ .Inforutor input {       /* Mobil */ 
+
+   display: flex;
+   height: 40px;
+   margin: 6px;
+   
+
+
+ } 
+
+ @media all and (min-width: 850px) {             /* Desktop */ 
+   .Inforutor input {
 
     display: flex;
     min-width: 300px;
@@ -47,20 +89,39 @@
     margin-left: 100px;
     
  }
+} 
+
+.Inforutor textarea {     /* Mobil */ 
+   display: flex;
+   height: 60px;
+   margin: 6px;
 
 
+}
 
+@media all and (min-width: 850px) {             /* Desktop */ 
     .Inforutor textarea {
-        display: flex;
-      height: 50px;
+      display: flex;
+      min-width: 300px;
+      height: 60px;
       margin: 6px;
       margin-left: 100px;
-     
-
+     }
 
     }
 
+    .button1 {          /* Mobil */ 
+      display: flex;
+      justify-content: center;
+      margin-top: 3px 3px;
+      background-color: rgba(0, 136, 169, 1);
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
 
+    @media all and (min-width: 850px)  {              /* Desktop */ 
     .button1 {
         display: flex;
         justify-content: center;
@@ -70,9 +131,9 @@
         border-radius: 30px;
         cursor: pointer;
         transition: all 0.3s ease;
-        
-
+      }
     }
+    
 
     .button1:hover {
         background-color: rgba(0, 136, 169, 0.8);

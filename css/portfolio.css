@@ -11,8 +11,9 @@
     .flexbox-container {
         display: flex; /* startar flex */ 
         justify-content: center; /* justify-content: center;  Flyttar flex-boxen horisontellt på X axeln */ 
-       
-        
+        flex-wrap: wrap;
+      
+
        /*  Flex-wrap: wrap; Gör så objekten inte ändrar storlek när skärmen blir mindre */ 
        /* justify-content: center;  Flyttar flex-boxen horisontellt på X axeln */ 
        /* align-items: stretch;  Flyttar flex-boxen vertikalt på Y axeln */ 

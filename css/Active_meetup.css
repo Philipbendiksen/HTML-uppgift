@@ -11,6 +11,8 @@
         display: flex; /* startar flex */ 
         justify-content: center; /* justify-content: center;  Flyttar flex-boxen horisontellt på X axeln */ 
         gap: 100px; /* används för att putta isär flexbox lådorna */ 
+        flex-wrap: wrap;
+        margin-bottom: 50px;
         
         
        /*  Flex-wrap: wrap; Gör så objekten inte ändrar storlek när skärmen blir mindre */ 

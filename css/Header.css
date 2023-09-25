@@ -32,12 +32,15 @@ header {
   margin-right: auto;
   font-size: large;
 
+ 
+
 }
+
 
 .logo a { 
 
   font-size: 20px;
-  
+ 
   }
 
   .logo a:hover {
@@ -98,101 +101,4 @@ button:hover {
 
 
 
-/* Desktop size 
-body {
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-    background-color: #24252a;
-}
 
-li, a, button {
-
-    font-weight: 500px;
-    font-size: 16px;
-    font-size:clamp (5vh, 15vh, 30vh);
-    color: azure;
-    text-decoration: none;
-
-}
-
-header { 
-
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 30px 10%;
-
-}
-
-
-.logo { 
-cursor: pointer;
-margin-right: auto;
-color: azure;
-font-size: large;
-
-}
-
-.logo a { 
-
-    font-size: 20px;
-    
-    }
-
-    .logo a:hover {
-
-    color: cadetblue;
-  }
-
-    .logo a {
- 
-    transition: all 0.3s ease;  /* ger en mjukare övergång till hover färgen */  /* 
-  }
-
-.nav_links {
-
-    list-style: none;
-}
-
-    .nav_links li {
-
-    display: inline-block;
-    padding: 0px 20px;
-}
-
-.nav_links li a {
-
-  transition: all 0.3s ease;
-}
-
-.nav_links li a:hover {
-
-    color: cadetblue;
-  }
-
-.button:active {
-
-    background-color: #003f7f; /* En mörkare nyans när knappen klickas på */ /* 
-    
-      }
-
-button {
-    
-    margin-left: 20px;
-    padding: 8px 25px;
-    background-color: rgba(0, 136, 169, 1);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-
-}
-
-
-
-button:hover {
-    background-color: rgba(0, 136, 169, 0.8);
-}
-
-*/ 

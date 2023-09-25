@@ -7,8 +7,15 @@
     }
 
 
+    .container {
+
+    display: block;
     
-    @media all and (min-width: 850px) {      /* Desktop */ 
+    
+    }
+
+    
+  @media all and (min-width: 850px) {      /* Desktop */ 
  .container  {
   display: flex;
   flex-direction: row;
@@ -22,6 +29,8 @@
 
    }
  }   
+
+
 
  .contactinformation {     /* Mobil */ 
   
@@ -139,3 +148,26 @@
         background-color: rgba(0, 136, 169, 0.8);
     }
 
+
+    .footer3 {
+  
+      color: azure;
+      text-align: center;
+      margin-top: 5px;
+      margin-bottom: 10px;
+     
+      }
+  
+
+      @media all and (min-width: 850px)  {            
+      .footer3 {
+        color: azure;
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: 10px;
+      } 
+
+    }
+        
+
+      
